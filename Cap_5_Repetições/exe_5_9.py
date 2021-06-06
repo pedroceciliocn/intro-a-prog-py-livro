@@ -6,6 +6,6 @@ while x >= divisor:
     x = x - divisor
     quociente = quociente + 1
 resto = x
-print(f"{dividendo} / {divisor} = {quociente} (quociente) {resto} (resto)")
+print(f"{dividendo}/{divisor} = {quociente} (quociente)\n{resto} (resto)")
 
 
