@@ -8,7 +8,7 @@ else:
         y = 3
         while p < n:
             x = 3
-            while(x < y):
+            while x < y:
                 if y % x == 0:
                     break
                 x += 2
@@ -16,5 +16,3 @@ else:
                 print(x)
                 p += 1
             y += + 2
-
-        
