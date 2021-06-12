@@ -15,4 +15,4 @@ else:
             if x == y:
                 print(x)
                 p += 1
-            y += + 2
+            y += 2
