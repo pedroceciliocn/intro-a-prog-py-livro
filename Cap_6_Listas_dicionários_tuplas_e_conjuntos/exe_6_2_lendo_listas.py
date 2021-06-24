@@ -3,12 +3,12 @@ L_1 = []
 L_2 = []
 
 while True:
-    n = int(input("Dê um numero da lista 1 (0 para sair)"))
+    n = int(input("Dê um numero para a lista 1 (0 para sair)"))
     if n == 0:
         break
     L_1.append(n)
 while True:
-    n = int(input("Dê um numero da lista 2 (0 para sair)"))   
+    n = int(input("Dê um numero para a lista 2 (0 para sair)"))   
     if n == 0:
         break
     L_2.append(n)
