@@ -2,18 +2,12 @@
 L_1 = []
 L_2 = []
 L = []
-while True:
+while l != 0:
     l = int(input("Adicione elementos para a primeira lista (0 para sair): "))
-    if l == 0:
-        break
-    else:
-        L_1.append(l)
-while True:
+    L_1.append(l)
+while l != 0:
     l = int(input("Adicione elementos para a segunda lista (0 para sair): "))
-    if l == 0:
-        break
-    else:
-        L_2.append(l)
+    L_2.append(l)
 L_3 = L_1[:]
 L_3.extend(L_2)
 x = 0
