@@ -3,18 +3,20 @@ L_1 = []
 L_2 = []
 
 while True:
-    l = int(input("Escolha qual lista ira adicionar elementos (1 ou 2 e 0 para sair)"))
-    if l == 0:
+    n = int(input("Dê um numero da lista 1 (0 para sair)"))
+    if n == 0:
         break
-    elif l == 1:
-        n = input("De um elemento e o adicionaremos a primeira lista:")
-        L_1.append(n)
-    elif l == 2:
-        n = input("De um elemento e o adicionaremos a segunda lista:")
-        L_2.append(n)
+    L_1.append(n)
+while True:
+    n = int(input("Dê um numero da lista 2 (0 para sair)"))   
+    if n == 0:
+        break
+    L_2.append(n)
 
-L = L_1 + L_2
+L_3 = L_1[:]
+L_3.extend(L_2)
 x = 0
-while x < len(L):
-    print(L[x])
+while x < len(L_3):
+    print(x, L_3[x])
     x += 1
+print(L_3)
