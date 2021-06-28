@@ -4,13 +4,13 @@ while fim > 1:
     trocou = False
     x = 0
     while x < (fim - 1): 
-        if L[x] > L[x + 1]: # nunca entra no if
+        if L[x] > L[x + 1]: # nao entra no if de primeira
             trocou = True
-            temp = L[x]
+            temp = L[x] 
             L[x] = L[x + 1]
             L[x + 1] = temp
-        x += 1 # x = 1
-    if not trocou: # depois da o break e sai pro for
+        x += 1  # passa pro proximo e começa a comparar o segundo 3 com o 1 e continua
+    if not trocou: 
         break
     fim -= 1
 for e in L:
